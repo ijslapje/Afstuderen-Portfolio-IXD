@@ -136,7 +136,39 @@ p{
     height: 50px;
   }
 
-
+  .slideshow {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+  }
+  
+  .slideshow img {
+    width: 50%;
+    height: auto;
+    scroll-snap-align: start;
+    cursor: pointer;
+  }
+  
+  .modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 9999;
+  }
+  
+  .modal img {
+    max-width: 80%;
+    max-height: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
   
 
 /* Producten */
@@ -366,6 +398,7 @@ p{
     transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
     cursor: pointer;
   }
+
 
 
   @media (min-width: 1000px) {
