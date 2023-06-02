@@ -236,27 +236,27 @@ a {
 }
 
 .demo-card--step1 .head {
-  background-color: #4caf50;
+  background-color: #ff74a1;
 }
 
 .demo-card--step2 .head {
-  background-color: #f9a825;
+  background-color: #ff5d8d;
 }
 
 .demo-card--step3 .head {
-  background-color: #3949ab;
+  background-color: #ff477a;
 }
 
 .demo-card--step4 .head {
-  background-color: #e91e63;
+  background-color: #ff3166;
 }
 
 .demo-card--step5 .head {
-  background-color: #039be5;
+  background-color: #ff1b53;
 }
 
 .demo-card--step6 .head {
-  background-color: #f06292;
+  background-color: #ff0540;
 }
 
 .demo-card * {
